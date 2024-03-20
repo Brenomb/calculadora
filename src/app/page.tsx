@@ -40,7 +40,7 @@ const CalculatorPage: React.FC = () => {
 
   return (
     <body className="m-0 bg-gradient-to-r from-pink-500 to-orange-500">
-      <div className="container mx-auto mt-8 justify-center">
+      <div className="container mx-auto mt-8 max-w-xs justify-center">
         <div className="h-14 col-span-full bg-black bg-opacity-75 flex flex-col items-end justify-around p-3 break-words">
           <div className="text-white text-1"></div>
           <div className="text-white text-2xl">{display}</div>
